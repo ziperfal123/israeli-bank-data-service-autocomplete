@@ -1,0 +1,135 @@
+* {
+  margin: 0 auto;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #9e93f2;
+  text-align: center;
+}
+
+#wrapper > h1 {
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 60px;
+}
+
+div > label {
+  font-size: 18px;
+}
+#form-container {
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  direction: RTL;
+  width: 20%;
+  height: 20px;
+  margin-top: 20px;
+}
+
+input#text-field-branch-number {
+  width: 10%;
+  margin-right: 10px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+button {
+  margin-right: 10px;
+  background-color: #9e93f2;
+  height: 25px;
+  width: 60px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #45cac7;
+}
+
+ul#banks-autocomplete-section {
+  position: relative;
+  left: 7%;
+  margin-top: 0;
+  width: 20%;
+}
+
+ul#branches-numbers-autocomplete-section {
+  position: relative;
+  right: 9.25%;
+  margin-top: 0;
+  width: 10%;
+}
+
+li {
+  position: relative;
+  line-height: 45px;
+  list-style: none;
+  background-color: #45cac7;
+  cursor: pointer;
+}
+li:nth-child(even) {
+  background-color: #30a7a5;
+}
+li:nth-child(1) {
+  border-top-left-radius: 14%;
+  border-top-right-radius: 14%;
+}
+
+li:hover {
+  background-color: teal;
+  transition: 0.18s;
+}
+
+/* .name-result-item {
+  /* right: 20px; 
+}
+
+.branch-result-item {
+} */
+
+p {
+  border: 0.02px dashed;
+  padding-top: 5px;
+  padding-left: 25px;
+  line-height: 40px;
+  font-family: sans-serif;
+}
+
+p > span {
+  font-size: 23px;
+  font-weight: 550;
+}
+
+#chosen-bank-data {
+  margin-top: 35px;
+  background-color: #4fe1d9;
+  width: 36%;
+  font-size: 1.15em;
+}
+
+#chosen-bank-data-hidden {
+  display: none;
+}
+
+#not-found-div {
+  margin-top: 60px;
+  background-color: #682dd5;
+}
+
+#not-found-div > h1 {
+  font-size: 45px;
+}
+
+#not-found-div > h2 {
+  font-size: 35px;
+  margin-top: 15px;
+}
