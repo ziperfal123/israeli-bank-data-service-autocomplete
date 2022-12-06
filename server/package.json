@@ -9,7 +9,7 @@
   "author": "Yaniv Ziperfal",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "https": "^1.0.0",
     "xml2js": "^0.4.19"
   }
